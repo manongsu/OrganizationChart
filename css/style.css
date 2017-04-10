@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0;border:none;font-family:Helvetica,"Microsoft YaHei";color:#333;}
+a{text-decoration: none;}
+ol,ul,li{list-style: none;}
+.contain{padding: 20px;}
+.contain ul li{display: none;}
+.contain td{text-align: center;padding:0 10px;font-size: 16px;}
+.contain td p>span>a{font-size: 14px;text-align: center;}
+.contain td p.first>span>a,p.second>span>a{margin-left: 10px;}
+.contain td p.first,p.second{width: 170px;height: 50px;line-height: 50px;background-color: #fff;text-align: center;margin: 0 auto;border-radius: 25px;box-shadow:0 0 10px #ddebff; }
+.contain td p.third,p.forth{width: 50px;height: 170px;background-color: #fff;text-align: center;margin: 0 auto;border-radius: 25px;padding-top: 10px;box-shadow:0 0 10px #fcf3dd;}
+.contain td p.first>span,p.second>span{font-size: 18px;}
+.contain td p.third>span,p.forth>span{width: 20px;height: 170px;margin: 20px auto;display: inline-block;font-size: 18px;}
+
+.contain td p.firstTop,p.secondTop,td p.thirdTop,p.forthTop{width: 1px;height: 20px;border-left: 1px solid #e8e8e8;margin: 0 auto;}
+.contain td p.firstBottom,p.secondBottom,td p.thirdBottom,p.forthBottom{width: 1px;height: 20px;border-left: 1px solid #e8e8e8;margin: 0 auto;}
+.contain td p.line2{height: 0px;border-top: 1px solid #e8e8e8;float: left;}
+.contain td p.line1{height: 20px;border-right: 1px solid #e8e8e8;float: left;}
